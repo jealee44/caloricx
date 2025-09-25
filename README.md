@@ -1,45 +1,62 @@
-CaloricX — Adaptive Calorie Coach
-Description
+<!-- Improved compatibility of back to top link -->
 
-CaloricX is a small full-stack app that adjusts your weekly calorie target based on your real progress—combining your recent weight trend with logged intake—rather than a one-time questionnaire.
+<a id="readme-top"></a>
+
+<!-- TITLE -->
+
+# CaloricX — Adaptive Calorie Coach
+
+<div align="center">
+
+**Adaptive calorie targets from real progress — not a one-time questionnaire.**  
+_For learning & portfolio use only — not medical advice._
+
+</div>
+
+---
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a></li>
+    <li><a href="#mvp-features">MVP Features</a></li>
+    <li><a href="#limitations--disclaimer">Limitations & Disclaimer</a></li>
+  </ol>
+</details>
+
+---
+
+## Problem
+
+Most calorie apps set a fixed daily/weekly target and never update it as your weight and activity change, causing stalls or overshooting.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Solution
+
+CaloricX recomputes next week’s calorie budget using your recent weight trend and logged intake, applying a bounded adjustment (e.g., `±250 kcal/day`) and showing a human-readable rationale.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## MVP Features
+
+- **Email/password auth** (http-only cookie session)
+- **Daily food logging** (search/manual), **morning weigh-ins**
+- **Weekly budget recompute** + **explanation card**
+- **Dashboard:** trend charts & adherence summary
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## Limitations & Disclaimer
+
 For learning & portfolio use only — not medical advice.
 
-Table of Contents
-
-Problem
-
-Solution
-
-MVP Features
-
-Limitations & Disclaimer
-
-Problem
-
-Most calorie apps assign a fixed daily/weekly target and rarely update it as your weight and activity change. This static approach often leads to stalls when progress slows, or overshooting when the target is too aggressive, because the plan doesn’t adapt to your actual outcomes.
-
-Solution
-
-CaloricX recomputes next week’s calorie budget using your recent weight trend and logged intake, then applies a bounded adjustment (e.g., ±250 kcal/day). Each update includes a human-readable rationale so you understand what changed and why. This creates a feedback loop that adapts targets to your observed progress while avoiding extreme swings.
-
-MVP Features
-
-Email/password auth (session via http-only cookies)
-
-Daily food logging (manual entry; simple search stub)
-
-Morning weigh-ins (one per day)
-
-Weekly budget recompute with an explanation card
-
-Dashboard summarizing adherence and trend charts
-
-Limitations & Disclaimer
-
-The energy-balance model is simplified and intended for educational demonstration, not clinical accuracy.
-
-Results can be influenced by hydration, measurement variance, illness, medication, and other factors not modeled here.
-
-Not medical advice. Always consult a qualified professional for nutrition, health, or medical decisions.
-
-This project is for learning & portfolio purposes and may change frequently; features and calculations are subject to revision.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
